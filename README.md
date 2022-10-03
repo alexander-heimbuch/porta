@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Assets
+
+- <a href="https://www.flaticon.com/free-icons/coffee-machine" title="coffee machine icons">Coffee machine icons created by Freepik - Flaticon</a>
+
 ## Available Scripts
 
 In the project directory, you can run:
