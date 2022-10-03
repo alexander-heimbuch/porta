@@ -26,7 +26,7 @@ function* message(client: MqttClient) {
 }
 
 function connect(): Promise<MqttClient> {
-  const client = mqtt.connect("wss://iot.fritz.box", { port: 9001 });
+  const client = mqtt.connect("ws://iot.fritz.box", { port: 9001 });
 
   return new Promise(resolve => {
     client.on("connect", function () {

@@ -14,6 +14,7 @@ function TemperatureChart() {
           <ReferenceLine y={92.5} stroke="rgba(250, 64, 66, 0.8)" strokeDasharray="5 5" />
           <XAxis
           dataKey = 'time'
+          domain = {['auto', 'auto']}
           name = 'Time'
           tickFormatter = {(timeStamp) => {
             const date = new Date(timeStamp)
